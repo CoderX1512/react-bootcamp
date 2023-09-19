@@ -1,0 +1,16 @@
+/* NotFound.css */
+
+.not-found-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .not-found-heading {
+    font-size: 36px;
+    color: #ff0000;
+  }
+  
+  .not-found-message {
+    font-size: 18px;
+    margin-top: 10px;
+  }
