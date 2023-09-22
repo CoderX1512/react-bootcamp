@@ -1,0 +1,5 @@
+body {
+  border: 2px solid #000; /* You can adjust the border thickness and color */
+  margin: 80px; /* Remove default margin to ensure the border covers the entire window */
+  padding: 10px 0px 500px 100px; /* Remove default padding */
+}
