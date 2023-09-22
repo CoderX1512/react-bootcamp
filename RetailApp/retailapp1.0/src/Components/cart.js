@@ -17,7 +17,8 @@ class CartPage extends Component {
     this.setState({ cartItems });
 
     // Fetch product details for items in the cart from the API
-    axios.get('https://fakestoreapi.com/products')
+    axios
+      .get('https://fakestoreapi.com/products')
       .then((response) => {
         const productDetails = response.data.filter((product) =>
           cartItems.includes(product.id)
@@ -37,6 +38,12 @@ class CartPage extends Component {
     this.setState({ totalPrice });
   };
 
+  handleClearCart = () => {
+    // Clear cart items from local storage and reset the state
+    localStorage.removeItem('cart');
+    this.setState({ cartItems: [], productDetails: [], totalPrice: 0 });
+  };
+
   render() {
     const { productDetails, totalPrice } = this.state;
 
@@ -47,6 +54,9 @@ class CartPage extends Component {
           <p>Your cart is empty.</p>
         ) : (
           <>
+            <button onClick={this.handleClearCart} className="btn btn-danger">
+              Clear Cart
+            </button>
             <table className="table">
               <thead>
                 <tr>

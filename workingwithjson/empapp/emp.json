@@ -1,0 +1,23 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "fname": "John",
+        "lname": "Doe",
+        "address": "9071 Stoltenberg Oval, Roselynshire, Ohio"
+      },
+      {
+        "id": 2,
+        "fname": "Jane",
+        "lname": "Smith",
+        "address": "4577 Watsica Oval, Elvastad, Minnesota"
+      },
+      {
+        "id": 3,
+        "fname": "Alice",
+        "lname": "Whitman",
+        "address": "01596 Armstrong Islands, Carmeloburgh, Michigan"
+      }
+      
+    ]
+  }

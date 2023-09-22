@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World"
+    },
+    {
+      "id": 2,
+      "title": "React is Awesome"
+    },
+    {
+      "title": "Ahesh",
+      "id": 3
+    },
+    {
+      "title": "Virat",
+      "id": 4
+    },
+    {
+      "title": "Rohit",
+      "id": 5
+    }
+  ]
+}
